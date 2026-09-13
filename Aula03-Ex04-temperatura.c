@@ -1,16 +1,16 @@
-/* Receber um número e dizer se ele é impar ou par. */
+/* Receber um nï¿½mero e dizer se ele ï¿½ impar ou par. */
 
 /* Receber um temperatura, maior ou igual a 35 - MUITO QUENTE,
 maior ou igual a 25 - QUENTE, maior ou igual a 18 - AGRADAVEL,
-ESTÁ FRIO */
+ESTï¿½ FRIO */
 
 /* Receber a idade e se possui CNH (Digitar 1 para SIM e 0 
-para NÃO. Caso atenda as duas condições: PODE DIRIGIR, caso
-contrario, NÃO PODE DIRIGIR*/
+para Nï¿½O. Caso atenda as duas condiï¿½ï¿½es: PODE DIRIGIR, caso
+contrario, Nï¿½O PODE DIRIGIR*/
 
 #include <stdio.h>
-#include <locale.h>//usar função setlocale
-#include <stdlib.h>//usar função system  
+#include <locale.h>//usar funï¿½ï¿½o setlocale
+#include <stdlib.h>//usar funï¿½ï¿½o system  
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	
@@ -20,14 +20,14 @@ int main(){
     scanf("%f", &temperatura);
     
     if(temperatura >= 35){
-                   printf("MUITO QUENTE");
+                   printf("MUITO");
                    }else if(temperatura >= 25){
                          printf("QUENTE");
                          }
                          else if(temperatura >= 18){
                               printf("AGRADAVEL");
                               }else{
-                                    printf("ESTÁ FRIO");
+                                    printf("ESTï¿½ FRIO");
                                     }
                               
                               getchar();
