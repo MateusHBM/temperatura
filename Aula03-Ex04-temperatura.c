@@ -20,7 +20,7 @@ int main(){
     scanf("%f", &temperatura);
     
     if(temperatura >= 35){
-                   printf("MUITO");
+                   printf("MUITO frio");
                    }else if(temperatura >= 25){
                          printf("QUENTE");
                          }
